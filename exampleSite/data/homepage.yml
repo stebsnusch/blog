@@ -1,7 +1,7 @@
 ---
 banner:
   title: Software Engineer
-  image: images/banner-art.jpg
+  image: "/images/profile.jpeg"
   copyright: Copyright @ Landing Page - Sollar
   button:
     enable: true
