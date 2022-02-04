@@ -12,22 +12,6 @@ fields:
   - type: file
     name: image
     label: image
-  - type: text
-    name: copyright
-    label: copyright
-  - type: field_group
-    name: button
-    label: button
-    fields:
-    - type: boolean
-      name: enable
-      label: enable
-    - type: text
-      name: label
-      label: label
-    - type: text
-      name: link
-      label: link
 - type: field_group
   name: description
   label: description
@@ -35,52 +19,14 @@ fields:
   - type: textarea
     name: content
     label: content
-- type: field_group
-  name: service
-  label: service
-  fields:
-  - type: boolean
-    name: enable
-    label: enable
-  - type: field_group_list
-    name: service_item
-    label: service_item
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: image_gallery
-      name: images
-      label: images
-    - type: textarea
-      name: content
-      label: content
-    - type: field_group
-      name: button
-      label: button
-      fields:
-      - type: boolean
-        name: enable
-        label: enable
-      - type: text
-        name: label
-        label: label
-      - type: text
-        name: link
-        label: link
-- type: field_group
-  name: screenshot
-  label: screenshot
-  fields:
-  - type: boolean
-    name: enable
-    label: enable
-  - type: text
-    name: title
-    label: title
-  - type: file
-    name: image
-    label: image
+- name: blog
+  type: blocks
+  label: blog
+  template_types:
+  - blog
+  config:
+    min: 
+    max: 
 - type: field_group
   name: error404
   label: error404
