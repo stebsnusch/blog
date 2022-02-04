@@ -79,7 +79,17 @@ blog:
     image: ''
   description:
     content: ''
-  blog: []
+  blog:
+  - template: blog
+    banner:
+      title: ''
+      image: ''
+    description:
+      content: ''
+    blog: []
+    error404:
+      image: ''
+      copyright: ''
   error404:
     image: ''
     copyright: ''
