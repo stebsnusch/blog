@@ -2,6 +2,9 @@
 title: About Me
 subtitle: This is who I am
 description: This is meta description
+menu:
+  main:
+    weight: 4
 
 ---
 Stephany Beatriz Silva Nusch (she/her), was born on May 20, 1995, in Santos, Brazil. Currently living in Vancouver, Canada. I consider myself a creative person who wishes to live life with intention.
