@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://stebs.dev"
 disqusShortname = "sicily-hugo-theme"
 googleAnalytics = ""
 languageCode = "en-us"
@@ -6,21 +6,46 @@ languageName = "En"
 paginate = "10"
 summaryLength = "15"
 theme = "Sicily-hugo-theme"
-title = "Sicily"
+title = "Stephany Nusch"
 [markup.goldmark.renderer]
 unsafe = true
-[[menu.main]]
-URL = "faq"
-name = "FAQ"
-weight = 3
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 2
+[[menu.company]]
+URL = "about-us"
+name = "About Us"
+[[menu.company]]
+URL = "quick-start"
+name = "Quick Start"
+[[menu.company]]
+URL = "terms-conditions"
+name = "Terms & Conditions"
 [[menu.main]]
 URL = "blog"
 name = "Blog"
 weight = 1
+[[menu.main]]
+URL = "pricing"
+name = "Pricing"
+weight = 2
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 3
+[[menu.main]]
+URL = "faq"
+name = "FAQ"
+weight = 4
+[[menu.product]]
+URL = "pricing"
+name = "Pricing"
+[[menu.product]]
+URL = "platform"
+name = "Platform"
+[[menu.product]]
+URL = "faq"
+name = "FAQ"
+[[menu.product]]
+URL = "privacy-policy"
+name = "Privacy Policy"
 [params]
 author = "cristianmarint"
 contact_form_action = "#"
