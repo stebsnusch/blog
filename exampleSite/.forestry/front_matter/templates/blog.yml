@@ -23,10 +23,10 @@ fields:
   type: blocks
   label: blog
   template_types:
-  - blog
+  - post
   config:
     min: 
-    max: 
+    max: 5
 - type: field_group
   name: error404
   label: error404
