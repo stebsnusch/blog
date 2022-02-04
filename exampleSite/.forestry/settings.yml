@@ -39,31 +39,6 @@ sections:
   label: FAQ
   create: documents
   match: "**/*"
-- type: directory
-  path: exampleSite/content/platform
-  label: Platform
-  create: documents
-  match: "**/*"
-- type: directory
-  path: exampleSite/content/pricing
-  label: Pricing
-  create: documents
-  match: "**/*"
-- type: directory
-  path: exampleSite/content/privacy-policy
-  label: Privacy policy
-  create: documents
-  match: "**/*"
-- type: directory
-  path: exampleSite/content/quick-start
-  label: Quick start
-  create: all
-  match: "**/*"
-- type: directory
-  path: exampleSite/content/terms-conditions
-  label: Term & conditions
-  create: none
-  match: "*"
 - type: heading
   label: All Pages
 - type: directory
@@ -73,8 +48,6 @@ sections:
   match: "**/*"
   templates:
   - new-page
-- type: heading
-  label: Configuration
 - type: document
   path: exampleSite/config.toml
   label: Configuration
