@@ -8,14 +8,10 @@ banner:
     label: About
     link: "/about/"
 description:
-  content: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  content: I currently work at Microsoft as a Software Engineer specializing in front-end.
+    I am obsessed with the Internet and how it works, so experimenting with new technologies
+    is a lot of fun for me. I like to feel challenged and find personal satisfaction
+    in learning new things.
 service:
   enable: true
   service_item:
