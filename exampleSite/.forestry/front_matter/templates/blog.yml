@@ -37,3 +37,5 @@ fields:
   - type: text
     name: copyright
     label: copyright
+pages:
+- exampleSite/data/homepage.yml

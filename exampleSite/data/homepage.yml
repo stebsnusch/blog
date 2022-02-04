@@ -72,3 +72,14 @@ screenshot:
 error404:
   image: images/404.png
   copyright: 404 Not Found by Jennifer Suplee
+blog:
+- template: blog
+  banner:
+    title: ''
+    image: ''
+  description:
+    content: ''
+  blog: []
+  error404:
+    image: ''
+    copyright: ''
